@@ -6,6 +6,6 @@ build-backend = "setuptools.build_meta"
 [tool.pytest.ini_options]
 testpath = ["test"]
 
-[tool.mupy]
+[tool.mypy]
 mupy_path = "src"
 ignore_missing_imports = true
