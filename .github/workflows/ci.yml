@@ -1,4 +1,4 @@
-name: Python application (Link_Lens)
+name: Python application (linklns)
 'on':
   push:
     branches:
