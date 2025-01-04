@@ -1,10 +1,10 @@
 #### --- file configuration ---
 [build-system]
 requires = ["setuptools>=60.0","wheel"]
-build-backend = "setuptools.build_meta"
+build-backends = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-testpath = ["test"]
+testpaths = ["test"]
 
 [tool.mypy]
 mupy_path = "src"
